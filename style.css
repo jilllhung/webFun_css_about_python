@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 970px;
+    margin: auto;
+    background-color: #245076;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    padding: 0px 10px;
+}
+    header img{
+        width: 350px;
+        height:auto;
+        margin-left: 20px;
+    }
+    .head-right-container {
+        height: 115px;
+        padding: 10px 10px 0px 0px;
+        font-size: 10pt;
+        text-align: right;
+    }
+    .head-right-container p{
+        padding-right: 30px;
+        color: white;
+    }
+    .head-right-container a{
+        color: #ceaf05;
+    }
+    .search-box{
+        display: flex;
+        align-items: center;
+        width: 210px;
+        padding:0px 30px;
+        height: 55px;
+        margin-top: 5px;
+        background-color: #444444;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 0px #1f2327;
+    }
+    .search-box .search-input{
+        width: 155px;
+        height: 30px;
+        text-align: center;
+        color:grey;
+        border: 3px inset #888888;
+        margin-right: 5px;
+    }
+    .search-box .search-button{
+        width: 40px;
+        height: 28px;
+        background-color: #245076;
+        color: white;
+        border: 2px outset #b1b1b1;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px 0px #1f2327;
+        font-size: 9pt;
+    }
+
+.header-menu{
+    display: flex;
+    width: 750px;
+    height: 40px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 60px;
+    margin-left: 70px;
+    list-style-type: none;
+    border-radius: 5px;
+    background-color: #477ead;
+    box-shadow: 2px 2px 2px 0px #1f2327;
+}
+    .header-menu li{
+        font-size: 17pt;
+        text-decoration: none;
+    }
+    .header-menu a{
+        text-decoration: none;
+        color: white;
+    }
+
+.upper-container{
+    height: 320px;
+    color: white;
+    display: flex;
+    align-items: top;
+    border-bottom: 4px solid #183753;
+}
+    .upper-container a{
+        color: white;
+    }
+    .sidebar-menu{
+        margin: 30px 0px 0px 120px;
+        font-size: 12pt;
+        text-align: center;
+        line-height: 180%;
+        list-style-position: inside;
+        list-style: none;
+    }
+    .sidebar-menu li:before {
+        content: "⯮"; /* Insert content that looks like bullets */
+        padding-right: 8px;
+        color: #ceaf05; /* Or a color you prefer */
+        font-size: 10pt;
+    }
+
+    main {
+        margin: 20px 0px 20px 30px;
+        width: 635px;
+        text-align: center;
+        font-size: 11pt;
+        line-height: 110%;
+    }
+    main .poem {
+        margin: 11px;
+        color: #f7cf32;
+        font-size: 14pt;
+        font-style: italic;
+        line-height: 170%;
+    }
+    .poem span{
+        font-style: normal;
+        color:white;
+        font-size: 12pt;
+    }
+
+.lower-container{
+    background-color: white;
+    display: flex;
+    align-items: top;
+    padding-left: 100px;
+}
+    .lower-container-box{
+        width: 400px;
+        margin: 10px;
+        border-top: 4px solid #73a7d5;
+    }
+    .lower-container-box h2{
+        margin: 5px 105px 0px 20px;
+        text-align: center;
+        font-size: 12pt;
+    }
+    .lower-container-box p{
+        font-size: 10pt;
+        margin: 5px 105px 0px 20px;
+        text-align:center;
+        line-height: 110%;
+    }
+    .lower-container p a{
+        text-decoration: none;
+        font-size: 8pt;
+        color: #73a7d5;
+    }
+    .lower-container-box ul{
+        font-size: 10pt;
+        margin: 0px 105px 5px 60px;
+        text-align:center;
+        list-style-type: square;
+    }
+        .lower-container-box li{
+            line-height: 150%;
+        }
+        .lower-container-box li a{
+            text-decoration: none;
+            color: #73a7d5;
+        }
+
+footer{
+    background:linear-gradient(to bottom,#245076, #2c6494, #3274ab);
+    color: #76a9d6;
+    text-align: center;
+    padding: 45px 0px 10px 0px;
+}
+    footer ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    footer ul li{
+        margin: 10px;
+    }
+    footer p{
+        font-size: 8pt;
+    }
